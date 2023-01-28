@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Fonts: -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+</head>
+<body style="
+background-color: #0D192C;">
+
+  <!-- Part 1: Product and name-->
+  <div style="
+  width: 325px;
+  background-color: #15263F;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+  border-radius: 15px;">
+    <!--Product image-->
+    <img src="./images/image-equilibrium.jpg"
+    style="max-width: 100%;
+    border-radius: 8px;"/>
+
+    <!-- Product name-->
+    <h1 style="
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;"> 
+    Equilibrium #3429 
+    </h1>
+  
+
+    <!--Part 2: description and other items-->
+
+    <!-- Product descriprion-->
+    <p style="
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;"> 
+    Our Equilibrium collection promotes balance and calm. 
+    </p>
+    
+    <!-- Price and time-->
+    <div style="
+    display: flex; 
+    flex-direction: row;;">
+      <div style="display: flex; flex-direction: row;">
+        <!-- Etherium-->
+        <div style="
+        margin-top: 17px;"> 
+          <img src="./images/icon-ethereum.svg"/>
+        </div>
+        
+        <!-- Green text-->
+        <div style="
+        margin-left: 5px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #00FFF8;">
+          <p> 0.041 ETH </p>
+        </div>
+      </div>
+  
+      <div style="
+      margin-left: 100px;
+      display: flex; 
+      flex-direction: row;">
+        <!-- clock -->
+        <div style="
+        margin-top: 17px;"> 
+          <img src="./images/icon-clock.svg"/>
+        </div>
+        
+        <!-- Grey text-->
+        <div style="
+        margin-left: 5px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #8BACD9;">
+          <p> 3 days left </p>
+        </div>
+      </div>
+    </div>
+
+    <hr style="height:2px;border-width:0;color:#2E405A;;background-color:#2E405A;">
+    <!-- Avatar and author-->
+    <div>
+      <div style="
+      display: flex; 
+      flex-direction: row;">
+        <!-- avatar -->
+        <div> 
+          <img src="./images/image-avatar.png"
+          style="
+          width: 33px;
+          margin-top: 10px;"/>
+        </div>
+        
+        <!-- text -->
+        <div style="
+        margin-left: 16px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #8BACD9;">
+          <p> Creation of  </p>
+        </div>
+        <!-- Author-->
+        <div style="
+        margin-left: 5px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;">
+          <p> Jules Wyvern </p>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+</body>
+</html>
